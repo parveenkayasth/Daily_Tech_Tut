@@ -1,0 +1,14 @@
+Command	Description
+pwd	Show the current working directory
+ls	List files in a directory
+ls -l	List files with details (permissions, size, owner, etc.)
+ls -a	List all files, including hidden ones
+cd [dir]	Change directory
+cd ..	Move up one directory
+mkdir [dir]	Create a new directory
+rmdir [dir]	Remove an empty directory
+rm -r [dir]	Remove a directory and its contents
+touch [file]	Create a new empty file
+rm [file]	Delete a file
+cp [source] [destination]	Copy files/directories
+mv [old] [new]	Rename or move a file/directory
