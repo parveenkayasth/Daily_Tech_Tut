@@ -1,28 +1,47 @@
 <!DOCTYPE html>
 <html>
-   <head>
-    <title>First javascript program</title>
-    <script>
-        console.log("Welcome in Javascipt Program");
-        var first_container = 90;
-        console.log(first_container);
-        first_container =89;
-        console.log(first_container);
-        first_container=5;
-        console.log(first_container);
 
-        console.log(first_container);
-        console.log(first_container);
-        console.log(first_container);
-        console.log(first_container);
-        console.log(first_container);
-    </script>
-   </head> 
 <body>
 
-<p><b>This text is bold</b></p>
-<p><i>This text is italic</i></p>
-<p>This is<sub> subscript</sub> and <sup>superscript</sup></p>
+<h2>My First JavaScript</h2>
+
+<button type="button"
+onclick="document.getElementById('demo').innerHTML = 'arman'">
+Click me to display Date and Time.</button>
+<button type="button" onclick="document.getElementById('demo2').innerHTML = 'vikas'">test</button>
+
+<p id="demo">Hi Shahil</p>
+<h1 id="demo2">Please press button</h1>
+<h1 id="demo3"></h1>
+
+<button onclick="rotate_name()">Check here</button>
+<button type="button" onclick="rotate_name_edit()">go here</button>
 
 </body>
-</html>
+</html> 
+<script>
+    console.log('arman check............')
+    var name_arr = ['arman','vikas','rakesh','amit', 'parveen','test'];
+    var x = 0;
+    function rotate_name(){
+      document.getElementById('demo2').innerHTML = name_arr[x];
+      
+      x = x + 1;
+     if(x == name_arr.length){
+        x=0;
+     }
+    }
+
+    function rotate_name_edit(){
+      document.getElementById('demo3').innerHTML = document.getElementById('demo3').innerHTML +' '+ name_arr[x];
+      
+      x = x + 1;
+     if(x == name_arr.length){
+        x=0;
+     }
+    }
+    
+    
+    </script>
+
+
