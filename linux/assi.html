@@ -13,7 +13,7 @@
 
 
 
- < 
+ 
 <div class="container">
     <div class="row">
         <div class="col-sm-12">
@@ -22,7 +22,7 @@
     </div>
   <div class="row">
     <div class="col-sm-12">
-        <img id="slider" src="" width="400" height="250" />
+        <img id="slider" src="" width="800" height="350" />
      
     </div>
    
@@ -30,7 +30,7 @@
   <div class="row" style="padding-top: 30px;">
     <div class="col-sm-6">
         <button type="button"  class="btn btn-primary" onclick="nextProcess()">Next</button>
-        <button type="button" class="btn btn-primary">Prev</button>
+        <button type="button" class="btn btn-primary" onclick="prevProcess()">Prev</button>
     </div>
     <div class="col-sm-6">
  
@@ -41,20 +41,52 @@
 
 </body>
 </html>
-<script>
+<script> 
+ var adddress = 0;
+ 
+
     var imag_array = ["first.jpg", "second.jpg", "third.jpg", "fourth.jpg", "five.jpg"];
-    //document.getElementById("slider").src ="images/"+imag_array[2];
-    var index =0;
-    var bigObj = document;
-console.log(bigObj)
-var imageObj = bigObj.getElementById("slider");
-console.log(imageObj);
-imageObj.src = "images/"+imag_array[index];
+document.getElementById("slider").src = "images/"+imag_array[adddress];
 
 
 function nextProcess(){
- index = index + 1;
- imageObj.src = "images/"+imag_array[index];
+ adddress = adddress + 1;
+ if(adddress == imag_array.length){
+   adddress =0;
+ }
+ document.getElementById("slider").src = "images/"+imag_array[adddress];
+
 }
+
+function prevProcess(){
+  adddress = adddress - 1;
+
+  if(adddress < 0){
+    adddress = imag_array.length - 1;
+  }
+  document.getElementById("slider").src = "images/"+imag_array[adddress];
+
+}
+
+
+
+
+  // console.log(imag_array);
+
+    //document.getElementById("slider").src ="images/"+imag_array[2];
+ //var mainAll23 =  document;
+// variable , array , object
+
+//v//ar sigleObj = mainAll23.getElementById("slider");
+
+console.log(sigleObj);
+//sigleObj.src = "images/"+imag_array[0];
+
+
+
+
+
+
+
 
 </script>
