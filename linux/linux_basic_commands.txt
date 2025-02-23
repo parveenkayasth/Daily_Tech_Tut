@@ -12,6 +12,3 @@ touch [file]	Create a new empty file
 rm [file]	Delete a file
 cp [source] [destination]	Copy files/directories
 mv [old] [new]	Rename or move a file/directory
-
-------------------------------
-Added more commands here

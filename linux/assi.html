@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Bootstrap Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+</head>
+<body>
+
+
+
+
+ < 
+<div class="container">
+    <div class="row">
+        <div class="col-sm-12">
+            <h1>This is slider</h1>
+        </div>
+    </div>
+  <div class="row">
+    <div class="col-sm-12">
+        <img id="slider" src="" width="400" height="250" />
+     
+    </div>
+   
+  </div>
+  <div class="row" style="padding-top: 30px;">
+    <div class="col-sm-6">
+        <button type="button"  class="btn btn-primary" onclick="nextProcess()">Next</button>
+        <button type="button" class="btn btn-primary">Prev</button>
+    </div>
+    <div class="col-sm-6">
+ 
+        
+    </div>
+  </div>
+</div>
+
+</body>
+</html>
+<script>
+    var imag_array = ["first.jpg", "second.jpg", "third.jpg", "fourth.jpg", "five.jpg"];
+    //document.getElementById("slider").src ="images/"+imag_array[2];
+    var index =0;
+    var bigObj = document;
+console.log(bigObj)
+var imageObj = bigObj.getElementById("slider");
+console.log(imageObj);
+imageObj.src = "images/"+imag_array[index];
+
+
+function nextProcess(){
+ index = index + 1;
+ imageObj.src = "images/"+imag_array[index];
+}
+
+</script>

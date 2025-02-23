@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Bootstrap Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+</head>
+<body>
+
+
+  
+<div class="container">
+    <div class="row">
+        <div class="col-sm-12">
+            <h1>This is slider</h1>
+        </div>
+    </div>
+  <div class="row">
+    <div class="col-sm-12">
+        <img id="slider" src="" width="500" height="300" />
+     
+    </div>
+   
+  </div>
+  <div class="row" style="padding-top: 50px;">
+    <div class="col-sm-6">
+        <button type="button" class="btn btn-primary">Next</button>
+        <button type="button" class="btn btn-primary">Prev</button>
+    </div>
+    <div class="col-sm-6">
+ 
+        
+    </div>
+  </div>
+</div>
+
+</body>
+</html>
+<script>
+    var images_array = ["first.jpg", "second.jpg", "third.jpg", "fourth.jpg", "five.jpg"];
+document.getElementById("slider").src ="images/"+images_array[4];
+</script>
