@@ -1,0 +1,32 @@
+1-  Student record Form
+       (A) Name : Arman34890
+       (B) Password
+       (C) Repassword
+       (D) Gender : Male
+       (E) Class: 10th
+       (F) Section
+       (G) Habits
+       (H) Address
+       (I) Contact No
+       (J) Email
+       (K) Initial Name
+
+       Button 1 - Submit
+              2-  Clear
+
+
+
+              Sr.   Name   Gender  Class  Section Habits    Address  Contact No  Email                         Operation 
+              1     Arman  Male     10th     A     Sigling  ABC Add  9812460154  Parveenkayasth@gmail.com     Edit   Delete
+              2     Arman34  Male     10th     A     Sigling  ABC Add  9812460154  Parveenkayasth@gmail.com     Edit   Delete
+              3     Arman34890  Male     10th     A     Sigling  ABC Add  9812460154  Parveenkayasth@gmail.com     Edit   Delete
+              4     Arman34  Male     10th     A     Sigling  ABC Add  9812460154  Parveenkayasth@gmail.com     Edit   Delete
+              5     Arman34  Male     10th     A     Sigling  ABC Add  9812460154  Parveenkayasth@gmail.com     Edit   Delete
+              6        Arman34  Male     10th     A     Sigling  ABC Add  9812460154  Parveenkayasth@gmail.com     Edit   Delete
+              7         Arman34  Male     10th     A     Sigling  ABC Add  9812460154  Parveenkayasth@gmail.com     Edit   Delete
+              8
+              9
+              10  Arman34  Male     10th     A     Sigling  ABC Add  9812460154  Parveenkayasth@gmail.com     Edit   Delete
+                    
+
+                <prev> 1, 2    <Next>   
