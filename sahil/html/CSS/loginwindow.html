@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>login window</title>
+    <style type="text/css">
+        body{
+            background:url(office.pic);
+            background-size: 80%;
+        }
+        .login{
+            width: 400px;
+            height: 260px;                                 
+            background: rgba(0, 0, 0, 0.729);
+            margin:auto;
+            margin-top: 100px;
+            border-radius: 5px;
+            color: white;
+            padding: 50px;
+        }
+        .login table{
+            width: 100%;
+        }
+        input[type="email"],input[type="password"]{
+            width: 100%;
+            padding: 10px;
+            font-size: 16px;
+        }
+        a{
+            color: white;
+        }
+        input[type="button"]{
+				width:105%;
+				color:blue;
+				padding:10px 5px;
+				background:orange;
+				color:white;
+				font-size:18px;
+				font-weight:bold;
+        }
+        td,th{
+            padding: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div class="login">
+        <form>
+            <table>
+                <tr>
+                    <th>LOGIN WINDOW</th>
+                </tr>
+                <tr>
+                    <td><input type="email" placeholder="Your Email Address"/></td>
+                </tr>
+                <tr>
+                    <td><input type="password" placeholder="Your Password"/></td>
+                </tr>
+                <tr>
+                    <td>
+                        <input id="ch1" type="checkbox" placeholder="your password"/><label for="ch1">Agree With</label>
+                        <a href="#">term & condition</a>
+                    </td>
+                </tr>
+                <tr>
+                    <td><input type="button" value="login"/></td>
+                </tr>
+            </table>
+        </form>
+    </div>
+    
+    
+</body>
+</html>

@@ -1,0 +1,48 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+.navbar{
+    background-color: #475569;
+    display: flex;
+}
+.nav-rgt img{
+    color: aliceblue;
+    height: 50px;
+    width: 70px;
+}
+.nav-mid{
+    text-decoration: none;
+    margin: 1% 4%;
+}
+.nav-mid ul
+{
+display:flex;
+
+list-style: none;
+
+}
+.nav-mid  li{
+   padding: 0px 26px;
+}
+.nav-lft
+{
+    border: black;
+    margin: 0% 1% 0% 41%;
+}
+.btn1
+{
+    height: 50px;
+    width: 80px;
+    border-radius: 10px;
+    background-color: #475569;
+    color: white;
+}
+.btn2
+{
+    height: 50px;
+    width: 80px;
+    border-radius: 10px;
+}
