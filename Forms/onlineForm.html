@@ -23,6 +23,7 @@
     </div>
 
     <div class="form-group">
+      <label for="sel1">Select Class:</label>
         <label for="gender">Gender:</label>
                 Male : <input type="radio"    name="gender" value="male">
                 Female:<input type="radio"   name="gender" value="female">
@@ -31,7 +32,7 @@
      
 
           <div class="form-group">
-            <label for="sel1">Select Class:</label>
+            
             <select class="form-control" id="sel1">
                 <option>6th</option>
                 <option>7th</option>
@@ -57,6 +58,7 @@
   </form>
 <hr/>
   <h1 id="outputemail"></h1>
+  <h1 id="outputsel1"></h1>
 </div>
 
 </body>
@@ -67,12 +69,20 @@
     
        var email =  document.getElementById("email").value;
        document.getElementById("outputemail").innerHTML  = email;
+
+    
+    
+        var sel1 =  document.getElementById("sel1").value;
+        console.log(sel1);
+        document.getElementById("outputsel1").innerHTML  = sel1;
+   
+ 
+ 
        
  }
-
+ 
  function clearFormInfo(){
     alert("You have press the clear button");
  }
-
-
+ 
 </script>
