@@ -1,0 +1,39 @@
+body{
+     margin: 0px;
+    padding: 0px; 
+}
+.header_file{
+    position: fixed;
+    background-color: black;
+    width: 100%;
+    height: 60px;
+
+}
+.header{
+    margin-top:15px;
+    margin-left: 300px;
+    margin-right: 300px;
+    width:990px;
+    display:flex;
+}
+.logo>a{
+    text-decoration: none;
+    font-size: 20px;
+    color: yellow;
+}
+.nav{
+    margin-left: 100px;
+    margin-right: 200px;
+    margin-bottom: 50px;
+}
+.nav ul{
+    list-style: none;
+    display: flex;
+}
+.nav ul li {
+    font-size: 20px;
+    padding: 10px 20px;
+    color: aliceblue;
+    
+    
+}
