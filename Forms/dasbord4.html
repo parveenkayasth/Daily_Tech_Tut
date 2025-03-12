@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<head>
+    <title>Float & Position Dashboard</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+        }
+
+        .header {
+            background-color: blue;
+            color: white;
+            text-align: center;
+            padding: 25px;
+            position: fixed;
+            width:100%;
+         
+            top: 0;
+            left: 0;
+            z-index: 1000;
+        }
+
+        .sidebar {
+            width: 250px;
+            height: 100vh;
+            background: green;
+            color: white;
+            position: fixed;
+            top: 70px;
+            left: 0;
+            padding: 30px;
+            float: left;
+        }
+
+        .content {
+            margin-left: 270px;
+            padding: 20px;
+            float: right;
+            width: calc(100% - 260px);
+            min-height: 100vh;
+            background: red;
+            margin-top: 80px;
+        }
+
+        .footer {
+            background: #333;
+            color: white;
+            text-align: center;
+            padding: 15px;
+            clear: both;
+            position: relative;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="header">
+        <h1>Dashboard Header</h1>
+    </div>
+
+    <div class="sidebar">
+        <h2>Sidebar</h2>
+        <ul>
+            <li>Home</li>
+            <li>Reports</li>
+            <li>Analytics</li>
+            <li>Settings</li>
+        </ul>
+    </div>
+
+    <div class="content">
+        <h2>Main Content</h2>
+        <p>Dashboard data and charts go here...</p>
+    </div>
+
+    <div class="footer">
+        <p>Dashboard Footer</p>
+    </div>
+
+</body>
+</html
