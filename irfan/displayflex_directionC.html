@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+    <head> 
+        <title>display flex-direction property</title>
+        <style>
+            *{
+                padding: 0px;
+                margin: 0px;
+            }
+            h1{text-align: center; margin: 5px;}
+            .container
+            {
+                background-color:blanchedalmond;
+                display: flex;
+                flex-direction: column ;
+                flex-direction: column-reverse;
+            }
+            .container> div
+            { 
+                background-color: azure;
+                width: 50px;
+                line-height: 50px;
+                margin: 5px;
+                text-align: center;
+            }
+            
+            
+        </style>
+    </head>
+    <body>
+        <h1>flex-direction:column</h1>
+        <div class=container>
+            <div>1</div>
+            <div>2</div>
+            <div>3</div>
+            <div>4</div>
+            <div>5</div>
+        </div>
+        
+    </body>
+</html>

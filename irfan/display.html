@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+  <html>
+    <head>
+        <title>display property</title>
+        <style>
+            h1{ 
+                text-align: center;
+            }
+            .a{ 
+                display: inline;
+                visibility: hidden;
+                padding: 10px;
+                background-color: rgb(74, 134, 245);
+                color: white;
+            }
+            p{padding:10px;}
+            span{
+                display: block;
+                display: none;
+                padding: 10px;
+                background-color: rgb(74, 134, 245);
+                color: white;
+                margin: 10px;
+            }
+            .parnt{ 
+                  display:flex;
+            }
+            .chaild{
+                padding: 10px;
+                background-color: rgb(74, 134, 245);
+                color: white;
+                margin: 10px;
+            }
+            .parnt{
+                height:300px;
+                width: 600px;
+                border: 2px solid black;
+                display: flex;
+                margin: 10px;
+            }
+            #grid{
+                height:600px;
+                width: 600px;
+                border: 2px solid black;
+                display: grid;
+                margin: 10px;
+            }
+           .rid{
+                padding: 10px;
+                background-color: rgb(74, 134, 245);
+                color: white;
+                margin: 10px;
+           }
+
+            
+        </style>
+
+    </head>
+    <body>
+        <h1>CSS display property </h1>
+       <p>Change block to inline elemant :-</p>
+        <div class="a">html</div>
+        <div class="a">CSS</div>
+        <div class="a">JavaScript</div>
+    <p>Change inline to block elemant :-</p>
+    <span>A</span><span>B</span><span>C</span>
+    <h1>Flex Playground</h1>
+      <div class="parnt"> 
+        <div class="chaild">html</div>
+        <div class="chaild">CSS</div>
+        <div class="chaild">JavaScript</div>
+        <div class="chaild">SQL</div>
+        <div class="chaild">Python</div>
+      </div> 
+      <div id="grid">
+        <div class="rid">one</div>
+        <div class="rid">two</div>
+        <div class="rid">three</div>
+      </div>
+    </body>
+  </html>
