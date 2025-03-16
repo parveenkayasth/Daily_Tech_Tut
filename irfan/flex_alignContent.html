@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+  <html>
+    <head>
+        <title>display flex alingn-content</title>
+        <style>
+            h1{ text-align: center; color: yellow ; margin: 5px;}
+            .container{
+                background-color: blueviolet;
+                display: flex;
+                flex-wrap:wrap;
+                align-content: flex-start;
+                height: 300px;
+            }
+            .container> div{
+                width: 100px;
+                line-height: 75px;
+                background-color: beige;
+                margin: 5px;
+                text-align: center;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>The alingn-content:flex-start</h1>
+        <div class="container">
+            <div>1</div>
+            <div>2</div>
+            <div>3</div>
+            <div>4</div>
+            <div>5</div>
+            <div>6</div>
+            <div>7</div>
+            <div>8</div>
+            <div>9</div>
+            <div>10</div>
+            <div>11</div>
+            <div>12</div>
+        </div>
+    </body>
+  </html>

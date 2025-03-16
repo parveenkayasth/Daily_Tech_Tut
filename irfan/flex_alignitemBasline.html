@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+   <html>
+     <head>
+        <title> display flex align-items </title>
+        <style>
+            h2{text-align: center;}
+            .container
+            {
+               background-color:blueviolet;
+               height: 250px;
+               display: flex;
+               align-items: baseline;
+            }
+            .container> div
+            {
+                width: 100px;
+                line-height: 40px;
+                margin: 5px;
+                background-color:white;
+                text-align: center;
+            }
+        </style>
+     </head>
+     <body>
+        <h2>The flex align-items:baseline</h2>
+        <div class="container">
+            <div><h1>ONE </h1></div>
+            <div>TWO</div>
+            <div><h6>THREE </h6></div>
+        </div>
+     </body>
+   </html>
