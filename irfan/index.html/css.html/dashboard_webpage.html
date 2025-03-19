@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    min-height: 100vh;
+    background-color: #f4f4f4;
+}
+
+.container {
+    display: flex;
+    width: 100%;
+}
+
+.sidebar {
+    width: 250px;
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+}
+
+.sidebar .logo {
+    font-size: 24px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.sidebar .nav {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+.sidebar .nav li {
+    margin: 15px 0;
+}
+
+.sidebar .nav a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+    display: block;
+    padding: 8px 16px;
+    border-radius: 5px;
+}
+
+.sidebar .nav a:hover {
+    background-color: gray;
+}
+
+.main-content {
+    flex-grow: 1;
+    padding: 20px;
+    background-color: white;
+}
+
+.header {
+    margin-bottom: 20px;
+}
+
+.header h1 {
+    font-size: 32px;
+    color: gainsboro;
+}
+
+.widgets {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 20px;
+}
+
+.widget {
+    background-color: whitesmoke;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.widget h3 {
+    margin-bottom: 10px;
+    font-size: 22px;
+    color: #333;
+}
+
+.widget p {
+    font-size: 18px;
+    color: #666;
+}
+</style>
+
+</head>
+<body>
+    <div class="container">
+            <aside class="sidebar">
+            <div class="logo">
+                <h2>Dashboard</h2>
+            </div>
+            <ul class="nav">
+                <li><a href="https://github.com/">Home</a></li>
+                <li><a href=" https://github.com/topics/analytics?o=desc&s=">Analytics</a></li>
+                <li><a href="https://github.com/settings/profile">Settings</a></li>
+                <li><a href="https://github.com/irfan8949">Profile</a></li>
+            </ul>
+        </aside>
+
+            <main class="main-content">
+            <header class="header">
+                <h1>Welcome to your Dashboard</h1>
+            </header>
+
+            <section class="widgets">
+                <div class="widget">
+                    <h3>Revenue</h3>
+                    <p>$12,000</p>
+                </div>
+                <div class="widget">
+                    <h3>Users</h3>
+                    <p>1,500</p>
+                </div>
+                <div class="widget">
+                    <h3>Orders</h3>
+                    <p>350</p>
+                </div>
+            </section>
+        </main>
+    </div>
+</body>
+</html>
