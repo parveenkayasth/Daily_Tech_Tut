@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Linux</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Arial, sans-serif;
+        }
+        body {
+            display: flex;
+        }
+        .sidebar {
+            width: 250px;
+            height: 100vh;
+            background: honeydew;
+            color: white;
+            padding: 20px;
+            position: fixed;
+        }
+        .sidebar h2 {
+            margin-bottom: 20px;
+        }
+        .sidebar ul {
+            list-style: none;
+        }
+        .sidebar ul li {
+            padding: 10px;
+            margin: 10px 0;
+            background:hotpink;
+            cursor: pointer;
+        }
+        .sidebar ul li:hover {
+            background: rebeccapurple;
+        }
+        .main-content {
+            margin-left: 250px;
+            padding: 20px;
+            width: 100%;
+        }
+        .header {
+            background: rebeccapurple;
+            padding: 20px;
+            text-align: center;
+            font-size: 24px;
+            font-weight: bold;
+        }
+        .cards {
+            display: flex;
+            gap: 20px;
+            margin-top: 20px;
+        }
+        .card {
+            background: grey;
+            padding: 20px;
+            box-shadow: 0 0 10px goldenrod;
+            flex: 1;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <div class="sidebar">
+        <h2>Dashboard</h2>
+        <ul>
+            <li>isyllabi</li>
+            <li>Profile</li>
+            <li>cards</li>
+            <li>Logout</li>
+        </ul>
+    </div>
+    <div class="main-content">
+        <div class="header">Dashboard Overview</div>
+        <div class="cards">
+            <div class="card">web page</div>
+            <div class="card">linux page </div>
+            <div class="card">coding page</div>
+        </div>
+    </div>
+</body>
+</html>
