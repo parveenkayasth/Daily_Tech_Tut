@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> web page</title>
+        <style>
+            *{
+                margin: 0;
+                padding: 0;
+                box-sizing: border-box;
+            }
+
+            body{
+                display: flex;
+                min-height: 100vh;
+            }
+            .sid{
+                width: 250px;
+                background-color: rgb(215, 236, 183);
+                color: white;
+                height: 100vh;
+                padding-top: 20px;
+            }
+
+            .sid-hed{
+                text-align: center;
+                margin-bottom: 30px;
+            }
+            .sid-hed h2{
+                font-size: 24px;
+            }
+            .sid-links{
+                list-style-type: none;
+            }
+            .sid-links li{
+                margin: 15px 0;
+                text-align: center;
+            }
+            .sid-links li a {
+                color: white;
+                text-decoration: none;
+                font-size: 18px;
+                display: block;
+                padding: 10px;
+                transition: background-color 0.3s;
+            }
+            .sid-links li a:hover{
+                background-color: gainsboro;
+            }
+            .main{
+                flex-grow: 1;
+                background-color: azure;
+                padding: 20px;
+            }
+            .top{
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                background-color: whitesmoke;
+                padding: 20px;
+                border-bottom: 1px solid  #ddd;
+            }
+            .search-bar input{
+                padding: 10px;
+                width: 300px;
+                border: 1px solid #ddd;
+                border-radius:5px;
+            }
+            .user-info{
+                font-size: 16px;
+            }
+            .dashboard-cards{
+                display: flex;
+                
+                
+            }
+            .card {
+               background-color: white;
+               padding: 20px;
+                border-radius: 8px;
+                box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+                text-align: center;
+            }
+            .card h3{
+                margin-bottom: 15px;
+            }
+            .card p{
+                font-size: 14px;
+                color:azure;
+            }
+
+        </style>
+    </head>
+    <style>
+        
+    </style>
+    <body>
+        <div class="sid">
+            <div class="sid-hed">
+                <h2>Useful links</h2>
+            </div>
+            <ul class="sid-links">
+                <li><a href="https://www.placeholder.com/usage/filming">Filming</a></li>
+                <li><a href="https://www.placeholder.com/usage/storage">Storage</a></li>
+                <li><a href="https://www.placeholder.com/usage/automotive">Automotive</a></li>
+                <li><a href="https://www.placeholder.com/usage/refrigerated-warehouse">Refrigerated </a></li>
+                <li><a href="https://www.placeholder.com/usage/gym">Gym</a></li>
+                <li><a href="https://www.placeholder.com/blog">Blog</a></li>
+                <li><a href="https://www.placeholder.com/legal">Trams of Service</a></li>
+                <li><a href="https://www.placeholder.com/legal">Private policy </a></li>
+            </ul>
+        </div>
+
+        <div class="main">
+            <div class="top">
+                <div class="search-bar">
+                    <input type="text" placeholder="search....">
+                </div>
+                <div class="user-info">
+                    <span>Welcom, User</span>
+                </div>
+            </div>
+
+            <div class="dashboard-cards">
+                <div class="card">
+                    <h3>Card 1</h3>
+                    <p>Content for card</p>
+                </div>
+                <div class="card">
+                    <h3>Card 2</h3>
+                    <p>Content for card 2</p>
+                </div>
+                <div class="card">
+                    <h3>Card 3</h3>
+                    <p>Content for card 3</p>
+                </div>
+            </div>
+        </div>
+        
+    </body>
+</html>

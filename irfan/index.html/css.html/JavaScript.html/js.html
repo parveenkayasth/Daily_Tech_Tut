@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> JavScript</title>
+
+        <style>
+            h1{
+                text-align: center;
+                color: cadetblue;
+                font-size: 40px;
+            }
+            p{
+               color:black;
+               margin: 20px;
+               font-size: 40px;
+            }
+            button{
+                margin: 20px;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>Indian Premier League</h1>
+
+    <p id="demo"> IPL- Today, 7:30 pm</p>
+
+    <button type="button" onclick="myFunction()">ON</button>
+
+    <script>
+        function myFunction(){
+            document.getElementById("demo").innerHTML = "GT vs PBKS.";
+            
+        }
+    </script>
+    </body>
+</html>
